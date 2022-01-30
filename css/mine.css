@@ -38,18 +38,121 @@
     line-height: 24px;
     color: var(--black-color);
     text-decoration: none;
-
 }
-.navbtn {
+.btn_size {
     width: 163px;
     height: 54px;
-    background: #0B2330;
-    border: 1px solid #0B2330;
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 16px;
     line-height: 24px;
+}
+.navbtn {
+    background: #0B2330;
+    border: 1px solid #0B2330;
     color: #FFFFFF;
     margin-right: 32px;
+}
+.m_left {
+    margin-left: 147px;
+}
+.header_wrap__content {
+    display: flex;
+    padding: 154px 0;
+    justify-content: space-between;
+
+}
+.header_content__title {
+    width: 436px;
+    height: 256px;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    color: #0B2330;
+    margin-bottom: 32px;
+}
+.header_content__text {
+    width: 435px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361
+}
+.header_content__butn {
+    display: flex;
+    margin-left: 147px;
+    margin-top: 38px;
+}
+.yellow_button {
+    background: #F9C600;
+    border: 1px solid #F9C600;
+  }
+.white_button {
+    background: none;
+    border: 1px solid #0B2330;
+    margin-left: 16px;
+}
+.orange_background {
+
+    position: absolute;
+    top: 80px;
+    left: 1380px;
+    width: 660px;
+    height: 886px;
+
+}
+.imgvideo{
+    position: relative;
+    right: 87px;
+    top: -5px;
+}
+h2 {
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #0B2330;
+}
+.trast_comp {
+    width: 547px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 189px;
+}
+
+.logo_comp {
+    width: 1192px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 59px;
+
+}
+.logo_comp img {
+    width: 154px;
+    height: 56px;
+    padding-left: 80px;
+}
+.produkct_teams {
+    width: 1376px;
+    height: 494px;
+    background: #51CEBC;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: #0B2330;
+}
+.produkct_teams img {
+    margin-top: 80px;
+}
+.produkct_teams_con_text {
 
 }
